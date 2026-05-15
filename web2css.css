@@ -51,6 +51,9 @@ body{
 }
 
 #navi{
+    position: sticky;
+    top: 0;
+    z-index: 10;
     background-color: rgba(128, 128, 128, 0.85);
     margin: 0px;
     padding: 10px 5px 10px 5px;
