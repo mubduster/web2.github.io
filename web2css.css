@@ -6,8 +6,113 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: lightgrey;
+}
+
+#head,#navi,#maintext,.footer{
+    width: 1900px;
 }
 
 #head{
     background-color: aqua;
+    padding: 2px 5px 1px 5px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+#head h1{
+    font-size: 70px;
+    color: blue;
+    text-decoration: double underline blueviolet;
+    margin: 5px 10px 2px 20px;
+}
+#head h4{
+    font-size: 40px;
+    color: green;
+    margin: 10px 10px 5px 10px;
+    position: relative;
+    top: 20px;
+    right: -120px;
+}
+#happy_puppy{
+    width: 270px;
+    position: relative;
+    top: -140px;
+    left: 1610px;
+    border: 5px solid black;
+}
+#head h6{
+    font-size: 60px;
+    margin: 0px;
+    position: relative;
+    top: -170px;
+    left: 700px;
+    text-decoration: underline;
+    animation: rainbow 10s linear infinite;
+}
+
+#navi{
+    background-color: rgba(128, 128, 128, 0.85);
+    margin: 0px;
+    padding: 10px 5px 10px 5px;
+    height: 50px;
+}
+#navi a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 20px;
+    padding: 10px;
+    position: relative;
+    top: -5px;
+    width: 91px;
+    height: 40px;
+
+}
+#navi p{
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    width: 90px;
+    height: 40px;
+    line-height: 33px;
+    border: 5px solid rgb(71, 71, 71);
+    position: relative;
+    top: -30px;
+    right: 10px;
+}
+#navi a:hover p{
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    scale: 1.1;
+}
+
+#maintext{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+@keyframes rainbow{
+    0%{color: red;}
+    10%{color: orange;}
+    20%{color: yellow;}
+    30%{color: green;}
+    40%{color: blue;}
+    50%{color: violet;}
+    60%{color: blue;}
+    70%{color: green;}
+    80%{color: yellow;}
+    90%{color: orange;}
+    100%{color: red;}
 }
