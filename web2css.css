@@ -69,7 +69,6 @@ body{
     padding: 10px;
     position: relative;
     top: -5px;
-    width: 91px;
     height: 40px;
 
 }
@@ -94,12 +93,21 @@ body{
     text-align: center;
     scale: 1.1;
 }
+#jumpWeb1{
+    width: 91px;
+}
+#jumpR{
+    width: 200px;
+}
 #jumpR p {
     width: 200px;
 }
+#jumpC{
+    width: 91px;
+}
 #jumpC p{
     position: relative;
-    left: 100px;
+    left: 0px;
 }
 
 #maintext{
